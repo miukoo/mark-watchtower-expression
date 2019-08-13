@@ -87,17 +87,17 @@ cnpm run dev
 #### Model
 
 ```java
-	  timer:null,		//定时器
-      text:'',			//计算临时变量
-      showText:'骚等信号接收中...',	//默认显示的等待提示语
-      chars:[],			//outText的字符数组
-      canvas:[],		//截取的gif每贞数据
-      timeStep:500,		//默认滚动时间步长
-      outScale:0.6,		//gif的缩放比例
-      outTitle:'你收到望楼传讯：',		//红色字的内容
-      outText:"语文老师语文不及格",		//黑色字的内容
-      list:[bg_0,bg_1,bg_2,bg_3,bg_4,bg_5,bg_6,bg_7,bg_8,bg_9,bg_10,bg_11],	//红色块图片
-      blag:[true,true,true,true,true,true,true,true,true,true,true,true]//红色块显示控制
+timer:null,		//定时器
+text:'',			//计算临时变量
+showText:'骚等信号接收中...',	//默认显示的等待提示语
+chars:[],			//outText的字符数组
+canvas:[],		//截取的gif每贞数据
+timeStep:500,		//默认滚动时间步长
+outScale:0.6,		//gif的缩放比例
+outTitle:'你收到望楼传讯：',		//红色字的内容
+outText:"语文老师语文不及格",		//黑色字的内容
+list:[bg_0,bg_1,bg_2,bg_3,bg_4,bg_5,bg_6,bg_7,bg_8,bg_9,bg_10,bg_11],	//红色块图片
+blag:[true,true,true,true,true,true,true,true,true,true,true,true]//红色块显示控制
 ```
 
 #### View
@@ -126,7 +126,7 @@ cnpm run dev
 
 ### VM
 
-VM实现较为复杂，但只要理解一下实现技巧，实现起来依很简单：
+VM实现较为复杂，但只要理解以下实现技巧，实现起来依很简单：
 
 - 启动定时器，定时改变页面VIEW的内容（详见：showBlag方法）
 - 每一次修改了VIEW内容之后，创建一个canvas并缓存起来（详见：createCanvas方法）
