@@ -27,9 +27,9 @@
 
 ### 效果演示
 
-![](G:\00_自媒体空间\VUE\mark-watchtower-expression\md\2.gif)
+<img src="https://github.com/miukoo/mark-watchtower-expression/blob/master/md/2.gif"/>
 
-![](G:\00_自媒体空间\VUE\mark-watchtower-expression\md\3.gif)
+<img src="https://github.com/miukoo/mark-watchtower-expression/blob/master/md/3.gif"/>
 
 ## A. 你不会程序，可以这样玩
 
