@@ -36,7 +36,7 @@
 - 第一步：下载a文件夹
 - 第二步：把a文件夹放在一个没有中文路径的地方
 - 第三步：双击a文件夹下的nginx.exe
-- 第四步：在浏览器中访问http://localhost:9898
+- 第四步：在chrome或firefox浏览器中访问http://localhost:9898
 
 ```javascript
 //  ======================================================
@@ -126,8 +126,25 @@ blag:[true,true,true,true,true,true,true,true,true,true,true,true]//红色块显
 
 ### VM
 
-VM实现较为复杂，但只要理解以下实现技巧，实现起来依很简单：
+VM实现较为复杂，但只要理解以下实现技巧，实现起来依就简单：
 
-- 启动定时器，定时改变页面VIEW的内容（详见：showBlag方法）
+- 启动定时器，每帧处理一个字符，定时改变页面VIEW的内容（详见：showBlag方法）
 - 每一次修改了VIEW内容之后，创建一个canvas并缓存起来（详见：createCanvas方法）
 - 当字符输出完之后，合并所有的canvas元素，输出成gif动画图片（详见：createGif方法）
+
+```javascript
+// 启动定时器
+start:function(){ },
+// 定时器关闭
+stop : function(){},
+// 生成每张图片的样式
+className : function(index){ },
+// 获取unicode 二进制编码
+getUnicode : function(char){},
+// 使用gif生成gif图片
+createGif : function(){},
+// 记录每帧数据
+createCanvas : function() {},
+// 依据字符串长度，渲染每帧的显示数据
+showBlag : function() {}
+```

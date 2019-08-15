@@ -43,7 +43,7 @@ export default {
       timeStep:500,
       outScale:0.6,
       outTitle:'你收到望楼传讯：',
-      outText:"语文老师语文不及格",
+      outText:"来喝酒、划拳、裸泳",
       list:[bg_0,bg_1,bg_2,bg_3,bg_4,bg_5,bg_6,bg_7,bg_8,bg_9,bg_10,bg_11],
       blag:[true,true,true,true,true,true,true,true,true,true,true,true]
     }
@@ -73,21 +73,26 @@ export default {
     this.start()
   },
   methods:{
+    // 启动定时器
     start:function(){
       let _this = this
       this.timer = setInterval(function(){_this.showBlag()},this.timeStep)
     },
+    // 定时器关闭
     stop : function(){
       if(this.timer!=null){
         clearInterval(this.timer)
       }
     },
+    // 生成每张图片的样式
     className : function(index){
       return 'bg_'+index;
     },
+    // 获取unicode 二进制编码
     getUnicode : function(char){
       return parseInt(char.charCodeAt(0),10).toString(2);
     },
+    // 使用gif生成gif图片
     createGif : function(){
         var gif = new GIF({
           workers: 2,
@@ -95,6 +100,7 @@ export default {
           workerScript:'/static/gif.worker.js'
         });
         for (let i = 0; i <this.canvas.length ; i++) {
+          // 最后一帧演出一些
           if(i==this.canvas.length-1){
             gif.addFrame(this.canvas[i],{delay:2000,copy: true});
           }else
@@ -106,6 +112,7 @@ export default {
         gif.render();
         this.stop()
     },
+    // 记录每帧数据
     createCanvas : function() {
       let _this = this;
       _this.stop()
@@ -115,6 +122,7 @@ export default {
         _this.start()
       });
     },
+    // 依据字符串长度，渲染每帧的显示数据
     showBlag : function() {
       if(this.showText.indexOf("\.")!=-1){
         this.showText=this.showText.substring(0,this.showText.length-3)
