@@ -43,7 +43,7 @@ export default {
       timeStep:500,
       outScale:0.6,
       outTitle:'你收到望楼传讯：',
-      outText:"来喝酒、划拳、裸泳",
+      outText:"你那是喜欢吗，你是馋她的身体",
       list:[bg_0,bg_1,bg_2,bg_3,bg_4,bg_5,bg_6,bg_7,bg_8,bg_9,bg_10,bg_11],
       blag:[true,true,true,true,true,true,true,true,true,true,true,true]
     }
