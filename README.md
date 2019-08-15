@@ -5,15 +5,21 @@
 > 最近《长安十二时辰》电视剧火了，其中望楼传递信息在技术圈也掀起了一阵算法浪潮。该项目就是踩着这个热点结合技术可定制化生成个人偏好的望楼表情程序。
 >
 > <span style='color:#ffaa11'>— 喜欢的请点星，或者微信搜索'技术记号'</span>
+>
+> ​	<span style='color:#9b9b9b;font-size:13px'>作者 | 罗学勇</span>
+>
+> ​	<span style='color:#9b9b9b;font-size:13px'>监制 | 向日葵</span>
+>
+> 项目地址：<https://github.com/miukoo/mark-watchtower-expression>
 
 
 
-### 此程序支持哪些人玩
+### <b style='color:red'>此程序支持哪些人玩</b>
 
 - 不会前端的你，也可以玩
 - 会前端的，希望你玩出B格
 
-### 支持的功能
+### <b style='color:red'>支持的功能</b>
 
 - 输入的字符自动转成望楼编码
 
@@ -25,13 +31,13 @@
 
   
 
-### 效果演示
+### <b style='color:red'>效果演示</b>
 
 <img src="https://github.com/miukoo/mark-watchtower-expression/blob/master/md/2.gif"/>
 
 <img src="https://github.com/miukoo/mark-watchtower-expression/blob/master/md/3.gif"/>
 
-## A. 你不会程序，可以这样玩
+## <b style='color:red'>A. 你不会程序，可以这样玩</b>
 
 - 第一步：下载a文件夹
 - 第二步：把a文件夹放在一个没有中文路径的地方
@@ -50,30 +56,30 @@ window['outTitle']='';
 window['outText']='';
 ```
 
-## B. 你会程序，可以这么玩
+## <b style='color:red'>B. 你会程序，可以这么玩</b>
 
-### 环境依赖
+### <b style='color:red'>环境依赖</b>
 
 - nodejs
 - webstorm
 - webpack
 - vue
 
-### 安装
+### <b style='color:red'>安装</b>
 
 ``` bash
 # 控制终端输入以下命令，安装相关依赖库
 cnpm i
 ```
 
-### 运行
+### <b style='color:red'>运行</b>
 
 ```bash
 # 控制终端输入以下命令，安装相关依赖库
 cnpm run dev
 ```
 
-### 高级玩家进阶-源码说明
+### <b style='color:red'>高级玩家进阶-源码说明</b>
 
 >程序核心源码在App.vue中，实现的思路是：
 >
@@ -149,17 +155,18 @@ createCanvas : function() {},
 showBlag : function() {}
 ```
 
-## 彩蛋—常用表情
+## <b style='color:red'>彩蛋—常用表情</b>
 
 >以下表情均由身边正经朋友提供，对此表示感谢!
 
 | 【这事必须放颗原子弹庆祝】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E8%BF%99%E4%BA%8B%E5%BF%85%E9%A1%BB%E6%94%BE%E9%A2%97%E5%8E%9F%E5%AD%90%E5%BC%B9%E5%BA%86%E7%A5%9D.gif'/> | 【一个大叉，像个树杈，你是傻瓜】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E5%A4%A7%E5%8F%89%E6%A0%91%E6%9D%88%E5%82%BB%E7%93%9C.gif'/> |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 【只有聪明的猪才能看明白这信息】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E5%8F%AA%E6%9C%89%E8%81%AA%E6%98%8E%E7%9A%84%E7%8C%AA%E6%89%8D%E8%83%BD%E7%9C%8B%E6%98%8E%E7%99%BD%E8%BF%99%E4%BF%A1%E6%81%AF.gif'/> | 【帮弄楼上，可领个雪糕！】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E5%B8%AE%E5%BC%84%E6%A5%BC%E4%B8%8A%EF%BC%8C%E5%8F%AF%E9%A2%86%E4%B8%AA%E9%9B%AA%E7%B3%95%EF%BC%81.gif'/> |
-| 【来喝酒、划拳、裸泳】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%9D%A5%E5%96%9D%E9%85%92%E3%80%81%E5%88%92%E6%8B%B3%E3%80%81%E8%A3%B8%E6%B3%B3.gif'/> | 【给主人发红包，才显示信息】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E7%BB%99%E4%B8%BB%E4%BA%BA%E5%8F%91%E7%BA%A2%E5%8C%85%EF%BC%8C%E6%89%8D%E6%98%BE%E7%A4%BA%E4%BF%A1%E6%81%AF.gif'/> |
-| 【你是什么垃圾】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E4%BD%A0%E6%98%AF%E4%BB%80%E4%B9%88%E5%9E%83%E5%9C%BE.gif'/> | 【Test Test This's test】<br /><img src="https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/Test%20Test%20This's%20test.gif"/> |
-| 【我今天晚上有空】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%88%91%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E6%9C%89%E7%A9%BA.gif'/> | 【你想我吗？】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E4%BD%A0%E6%83%B3%E6%88%91%E5%90%97%EF%BC%9F.gif'/> |
-| 【悄悄告诉你，你很优秀！】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%82%84%E6%82%84%E5%91%8A%E8%AF%89%E4%BD%A0%EF%BC%8C%E4%BD%A0%E5%BE%88%E4%BC%98%E7%A7%80%EF%BC%81.gif'/> | 【明白了大哥】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%98%8E%E7%99%BD%E4%BA%86%E5%A4%A7%E5%93%A5.gif'/> |
-| 【楼上这货，格杀勿论】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%98%8E%E7%99%BD%E4%BA%86%E5%A4%A7%E5%93%A5.gif'/> | 【来卡黑】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%9D%A5%E5%BC%80%E9%BB%91.gif'/> |
-| 【楼下集合】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%A5%BC%E4%B8%8B%E9%9B%86%E5%90%88.gif'/> | 【求包养】<br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%B1%82%E5%8C%85%E5%85%BB.gif'/> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <b>【你那是喜欢吗，你是馋她的身体】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E4%BD%A0%E9%82%A3%E6%98%AF%E5%96%9C%E6%AC%A2%E5%90%97%EF%BC%8C%E4%BD%A0%E6%98%AF%E9%A6%8B%E5%A5%B9%E7%9A%84%E8%BA%AB%E4%BD%93.gif'/> | <b>【几个菜啊，喝成这样】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E5%87%A0%E4%B8%AA%E8%8F%9C%E5%95%8A%EF%BC%8C%E5%96%9D%E6%88%90%E8%BF%99%E6%A0%B7.gif'/> |
+| <b>【只有聪明的猪才能看明白这信息】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E5%8F%AA%E6%9C%89%E8%81%AA%E6%98%8E%E7%9A%84%E7%8C%AA%E6%89%8D%E8%83%BD%E7%9C%8B%E6%98%8E%E7%99%BD%E8%BF%99%E4%BF%A1%E6%81%AF.gif'/> | <b>【帮弄楼上，可领个雪糕！】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E5%B8%AE%E5%BC%84%E6%A5%BC%E4%B8%8A%EF%BC%8C%E5%8F%AF%E9%A2%86%E4%B8%AA%E9%9B%AA%E7%B3%95%EF%BC%81.gif'/> |
+| <b>【来喝酒、划拳、裸泳】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%9D%A5%E5%96%9D%E9%85%92%E3%80%81%E5%88%92%E6%8B%B3%E3%80%81%E8%A3%B8%E6%B3%B3.gif'/> | <b>【给主人发红包，才显示信息】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E7%BB%99%E4%B8%BB%E4%BA%BA%E5%8F%91%E7%BA%A2%E5%8C%85%EF%BC%8C%E6%89%8D%E6%98%BE%E7%A4%BA%E4%BF%A1%E6%81%AF.gif'/> |
+| <b>【你是什么垃圾】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E4%BD%A0%E6%98%AF%E4%BB%80%E4%B9%88%E5%9E%83%E5%9C%BE.gif'/> | <b>【Test Test This's test】</b><br /><img src="https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/Test%20Test%20This's%20test.gif"/> |
+| <b>【我今天晚上有空】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%88%91%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E6%9C%89%E7%A9%BA.gif'/> | <b>【你想我吗？】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E4%BD%A0%E6%83%B3%E6%88%91%E5%90%97%EF%BC%9F.gif'/> |
+| <b>【悄悄告诉你，你很优秀！】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%82%84%E6%82%84%E5%91%8A%E8%AF%89%E4%BD%A0%EF%BC%8C%E4%BD%A0%E5%BE%88%E4%BC%98%E7%A7%80%EF%BC%81.gif'/> | <b>【明白了大哥】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%98%8E%E7%99%BD%E4%BA%86%E5%A4%A7%E5%93%A5.gif'/> |
+| <b>【楼上这货，格杀勿论】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%98%8E%E7%99%BD%E4%BA%86%E5%A4%A7%E5%93%A5.gif'/> | <b>【来卡黑】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%9D%A5%E5%BC%80%E9%BB%91.gif'/> |
+| <b>【楼下集合】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%A5%BC%E4%B8%8B%E9%9B%86%E5%90%88.gif'/> | <b>【求包养】</b><br /><img src='https://github.com/miukoo/mark-watchtower-expression/blob/master/%E7%83%AD%E7%82%B9%E8%A1%A8%E6%83%85%E5%8C%85/%E6%B1%82%E5%8C%85%E5%85%BB.gif'/> |
 
